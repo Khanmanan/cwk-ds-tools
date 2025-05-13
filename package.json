@@ -1,0 +1,58 @@
+{
+  "name": "cwk-ds-tools",
+  "version": "1.0.0",
+  "description": "Zero-boilerplate Discord.js bot framework with built-in MongoDB, automod, slash commands, and more",
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/ test/",
+    "prepare": "npm run build",
+    "build": "tsc --build || echo 'TypeScript not configured'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khanmanan/cwk-ds-tools.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "framework",
+    "mongodb",
+    "automod",
+    "slash-commands",
+    "moderation",
+    "discord-bot"
+  ],
+  "author": "Khanmanan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khanmanan/cwk-ds-tools/issues"
+  },
+  "homepage": "https://github.com/Khanmanan/cwk-ds-tools#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/**/*.js",
+    "types/**/*.d.ts",
+    "src/**/*.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.2.2"
+  }
+}
