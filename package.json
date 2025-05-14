@@ -5,8 +5,8 @@
   "main": "index.js",
   "types": "types/index.d.ts",
   "scripts": {
-    "start": "node src/index.js",
-    "lint": "eslint src/ test/",
+    "start": "node index.js",
+    "lint": "eslint test/",
     "prepare": "npm run build",
     "build": "tsc --build || echo 'TypeScript not configured'",
     "test": "echo \"Error: no test specified\" && exit 1"
