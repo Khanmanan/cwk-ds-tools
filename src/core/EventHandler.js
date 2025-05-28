@@ -22,7 +22,7 @@ class EventHandler {
     ];
 
     for (const event of builtInEvents) {
-      const eventPath = path.join(__dirname, '../../events', `${event}.js`);
+      const eventPath = path.join(__dirname, '../events', `${event}.js`);
       this.setupEvent(event, eventPath);
     }
 
