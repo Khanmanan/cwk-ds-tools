@@ -1,6 +1,6 @@
 {
   "name": "cwk-ds-tools",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "Zero-boilerplate Discord.js bot framework with built-in MongoDB, automod, slash commands, and more",
   "main": "index.js",
   "types": "types/index.d.ts",

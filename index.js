@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { BotClient } = require('./src/core/BotClient');
 const { checkAndCreateFolders } = require('./src/utils/helpers');
 const path = require('path');
